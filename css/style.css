@@ -1,0 +1,185 @@
+body{
+	font-family: verdana;
+	margin: 0px;
+	overflow-x: hidden;
+}
+.fullwidth{
+	width:100%;
+}
+
+.topbar{
+	height: 283px;
+    background-color: #deeaf5;
+}
+.LOGO{
+	background: url(../images/LOGO.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+	transition:0.5s;
+}
+.LOGO:hover{
+	transform:scale(1.1);
+}
+.SiteName{
+	font-family: 'Charukola';
+    font-size: 90px;
+    text-align: center;
+    color: #14981e;
+}
+.SiteSubName{
+	font-family: 'Consent';
+    font-size: 35px;
+    text-align: center;
+    color: #7687ff;
+}
+.cardContainer{
+	width: 280px;
+    height: 350px;
+    cursor: pointer;
+}
+
+
+.ORCHID{
+	background: url(../images/ORCHID.jpg);
+}
+.TOOLS{
+	background: url(../images/TOOLS.jpg);
+}
+.SEASONAL{
+	background: url(../images/SEASONAL.png);
+}
+.ROSES{
+	background: url(../images/ROSES.jpg);
+}
+.categoryImage{
+    border: 1px solid #bfbfbf;
+	border-radius: 5px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	width: 270px;
+    height: 340px;
+	transition:0.3s;
+}
+.categoryImage:hover{
+	width: 280px;
+    height: 350px;
+}
+.categoryText{
+	font-family: 'Xolonium';
+    font-size: 20px;
+    padding: 10px;
+    background-color: #1c632b;
+    color: #f5f5d9;
+	width: 245px;
+	cursor: pointer;
+}
+
+.map{
+	width:100%;
+	height:250px;
+	
+}
+
+
+
+.okBtn{
+	padding: 6px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.rated {
+  color: orange;
+}
+.cardTitle{
+	font-weight: bolder;
+}
+
+.hover-zoomin a {
+      display: block;
+      position: relative;
+      overflow: hidden;
+    }
+.hover-zoomin img {
+      width: 100%;
+      height: 200px;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      /*-o-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;*/
+      transition: all 0.5s ease-in-out;
+    }
+    .hover-zoomin:hover img {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+
+.BanglaText{
+	text-align: justify;
+    width: 70%;
+}
+.about-Photo{
+	background: url(../images/ABOUT.jpg);
+    border: 1px solid #bfbfbf;
+	border-radius: 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	width: 350px;
+    height: 400px;
+	cursor:pointer;
+	transition:0.5s;
+}
+.about-Photo:hover{
+	width: 380px;
+    height: 450px;
+}
+#BUY_FRAME{
+	width: 100%;
+    height: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Charukola';
+    src: url(../font/CharukolaUltraLight.ttf);
+}
+@font-face {
+    font-family: 'Consent';
+    src: url(../font/Consent.ttf);
+}
+@font-face {
+    font-family: 'Xolonium';
+    src: url(../font/Xolonium.otf);
+}
